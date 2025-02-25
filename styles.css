@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    text-align: center;
+}
+
+
+header {
+    background: #000000;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+}
+
+
+#menu {
+    background: rgba(255, 255, 255, 0.8); 
+    width: 30%;
+    margin: 20px auto;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
+
+.selection {
+    margin: 10px 0;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+select {
+    width: 60%;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    background: white;
+    color: black;
+}
+
+
+button {
+    background: #000000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #cce7ff;  
+    color: black;
+    box-shadow: 0px 0px 10px rgba(111, 0, 255, 0.5);
+}
+
+
+#attendance-section {
+    width: 80%;
+    margin: 30px auto;
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ffffff;
+    padding: 12px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+th {
+    background: #000000;
+    color: rgb(255, 255, 255);
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: white;
+}
